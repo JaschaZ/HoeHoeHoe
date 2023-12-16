@@ -2245,6 +2245,12 @@ input, select, textarea {
 		background-position: top left, bottom center;
 		background-repeat: repeat, no-repeat;
 	}
+	
+	@media only screen and (max-width: 600px) {
+		#intro {
+			background-position: top left, right center;
+		}
+	}
 
 /* One */
 
